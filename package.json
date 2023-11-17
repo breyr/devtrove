@@ -12,10 +12,13 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "devtrove.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "devtrove.view",
+        "title": "View DevTrove",
+        "category": "Dev Trove"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
